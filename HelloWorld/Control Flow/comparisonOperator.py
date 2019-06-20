@@ -7,3 +7,9 @@ elif(name_len > 50):
     print("name can be a maximum of 50 characters.")
 else:
     print("name looks good!")
+
+print("bag" > "apple")
+print("bag" < "BAG")
+
+print(ord("b"))
+print(ord("B"))
