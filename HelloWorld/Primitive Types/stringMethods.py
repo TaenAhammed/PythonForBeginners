@@ -1,8 +1,11 @@
-course = 'Python for Beginners'
+course = '  Python for Beginners    '
 print(len(course))  # Genereal perpous function
 print(course.upper())
 print(course)
 print(course.lower())
+print(course.title())
+print(course.lstrip())
+print(course.rstrip())
 
 # Returns the index of the first occurrence of the character.
 print(course.find('P'))
@@ -17,3 +20,4 @@ print(course.replace("P", "C"))
 # Check existence of a character or a sequence of characters
 print("Python" in course)   # True
 print("python" in course)   # False
+print("python" not in course)   # True

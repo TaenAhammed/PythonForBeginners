@@ -10,3 +10,11 @@ print(age)
 weight_lbs = input("Weight (lbs): ")
 weight_kgs = int(weight_lbs) * 0.45
 print(weight_kgs)
+
+print(bool(0))
+print(bool(1))
+print(bool(-1))
+print(bool(5))
+print(bool(None))
+print(bool(""))
+print(bool("False"))
