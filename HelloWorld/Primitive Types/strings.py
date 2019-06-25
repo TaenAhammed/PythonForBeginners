@@ -25,3 +25,10 @@ print(course[:])
 # Exercise
 name = 'Jennifer'
 print(name[1:-1])  # ennife
+
+quote = 'Best of luck'
+print(quote[:])
+print(quote[::])
+print(quote[:-5])
+print(quote[::-5])
+print(quote[::-1])
