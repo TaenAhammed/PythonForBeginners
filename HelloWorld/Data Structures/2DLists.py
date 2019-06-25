@@ -10,3 +10,7 @@ matrix = [
 for row in matrix:
     for item in row:
         print(item)
+
+letters = ['a', 'b', 'c', 'd']
+for index, letter in enumerate(letters):
+    print(index, letter)
